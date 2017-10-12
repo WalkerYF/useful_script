@@ -1,3 +1,5 @@
+# 'git pull' in every directory
+# maybe can't solve error
 index=0
 for a in `ls -F | grep "/$"`
 do
