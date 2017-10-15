@@ -18,11 +18,12 @@ do
 		temp="maybe sync success"
 	fi
 	# k[index]="\t$a\t:$temp\t"
-	k[index]=`printf "%30s : %20s" "$a" "$temp"`
+	k[index]=`printf "%-30s : %-20s" "$a" "$temp"`
 	# echo -e "${k[$index]}"
 	index=$index+1
 done
 
+echo "-----------------------------------------------------"
 for a in "${!k[@]}";
 do
 	echo -e "${k[$a]}";
