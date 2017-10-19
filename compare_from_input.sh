@@ -17,8 +17,8 @@ mkdir -p $output1
 mkdir -p $output2
 for i in `seq $3` # from 1 to 7
 do
-`./$1 < $in/in$i > $output1/out$i`
-`./$2 < $in/in$i > $output2/out$i`
+./$1 < $in/in$i > $output1/out$i
+./$2 < $in/in$i > $output2/out$i
 done
 
 # for i in {1..$3}
