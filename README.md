@@ -5,7 +5,7 @@
 ### Network
 
 Open an http proxy.
-(need ncat in nmap)
+(need ncat in nmap, bug in MacOS)
 
 ```
 ncat -l 3138 --proxy-type http
